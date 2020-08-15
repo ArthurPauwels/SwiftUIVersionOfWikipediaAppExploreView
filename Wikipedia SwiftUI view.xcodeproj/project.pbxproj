@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,22 @@
 		2F75AA7424DD7DBD00BE5B1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F75AA7324DD7DBD00BE5B1C /* Preview Assets.xcassets */; };
 		2F75AA7F24DD7DBD00BE5B1C /* Wikipedia_SwiftUI_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F75AA7E24DD7DBD00BE5B1C /* Wikipedia_SwiftUI_viewTests.swift */; };
 		2F75AA8A24DD7DBD00BE5B1C /* Wikipedia_SwiftUI_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F75AA8924DD7DBD00BE5B1C /* Wikipedia_SwiftUI_viewUITests.swift */; };
+		2F7AFE8424E01C3C003CDFFA /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AFE8324E01C3C003CDFFA /* FeedItem.swift */; };
+		2F7AFE8624E025EF003CDFFA /* BaseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AFE8524E025EF003CDFFA /* BaseCard.swift */; };
+		2F7AFE8824E02C97003CDFFA /* PictureOfTheDayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AFE8724E02C97003CDFFA /* PictureOfTheDayCard.swift */; };
+		2F7AFE8A24E03323003CDFFA /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AFE8924E03323003CDFFA /* ArticleList.swift */; };
+		2F7AFE8C24E039CA003CDFFA /* TopReadCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AFE8B24E039CA003CDFFA /* TopReadCard.swift */; };
+		2FA5AB8C24DEE2F800947676 /* ExploreContentCel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5AB8B24DEE2F800947676 /* ExploreContentCel.swift */; };
+		2FA5AB8F24DEE88C00947676 /* ArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5AB8E24DEE88C00947676 /* ArticleCard.swift */; };
+		2FA5AB9224DEE8DF00947676 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5AB9124DEE8DF00947676 /* Article.swift */; };
+		2FA5AB9424DEEC0800947676 /* PictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5AB9324DEEC0800947676 /* PictureOfTheDay.swift */; };
+		2FA5AB9624DEF18700947676 /* georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FA5AB9524DEF18700947676 /* georgia.ttf */; };
+		2FA5AB9A24DEF65F00947676 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2FA5AB9924DEF65F00947676 /* SDWebImageSwiftUI */; };
+		2FA5AB9E24DEFA0D00947676 /* SaveForLaterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5AB9D24DEFA0D00947676 /* SaveForLaterButton.swift */; };
+		2FA5ABA124DEFF9E00947676 /* WikipediaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5ABA024DEFF9E00947676 /* WikipediaRepository.swift */; };
+		2FC59FD524DD9A34006E16D9 /* ExploreTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC59FD424DD9A34006E16D9 /* ExploreTab.swift */; };
+		2FD9B9AD24DEC40A009B482F /* TopHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9B9AC24DEC40A009B482F /* TopHeader.swift */; };
+		2FD9B9AF24DEC44D009B482F /* HeaderSearchBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9B9AE24DEC44D009B482F /* HeaderSearchBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +61,21 @@
 		2F75AA8524DD7DBD00BE5B1C /* Wikipedia SwiftUI viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wikipedia SwiftUI viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F75AA8924DD7DBD00BE5B1C /* Wikipedia_SwiftUI_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wikipedia_SwiftUI_viewUITests.swift; sourceTree = "<group>"; };
 		2F75AA8B24DD7DBD00BE5B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F7AFE8324E01C3C003CDFFA /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../../../../../FeedItem.swift; sourceTree = "<group>"; };
+		2F7AFE8524E025EF003CDFFA /* BaseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseCard.swift; path = ../../../../../../../BaseCard.swift; sourceTree = "<group>"; };
+		2F7AFE8724E02C97003CDFFA /* PictureOfTheDayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PictureOfTheDayCard.swift; path = ../../../../../../../PictureOfTheDayCard.swift; sourceTree = "<group>"; };
+		2F7AFE8924E03323003CDFFA /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArticleList.swift; path = ../../../../../ArticleList.swift; sourceTree = "<group>"; };
+		2F7AFE8B24E039CA003CDFFA /* TopReadCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TopReadCard.swift; path = ../../../../../../../TopReadCard.swift; sourceTree = "<group>"; };
+		2FA5AB8B24DEE2F800947676 /* ExploreContentCel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreContentCel.swift; sourceTree = "<group>"; };
+		2FA5AB8E24DEE88C00947676 /* ArticleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCard.swift; sourceTree = "<group>"; };
+		2FA5AB9124DEE8DF00947676 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../../../../../Article.swift; sourceTree = "<group>"; };
+		2FA5AB9324DEEC0800947676 /* PictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PictureOfTheDay.swift; path = ../../../../../PictureOfTheDay.swift; sourceTree = "<group>"; };
+		2FA5AB9524DEF18700947676 /* georgia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = georgia.ttf; sourceTree = "<group>"; };
+		2FA5AB9D24DEFA0D00947676 /* SaveForLaterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SaveForLaterButton.swift; path = ../../../../../../../SaveForLaterButton.swift; sourceTree = "<group>"; };
+		2FA5ABA024DEFF9E00947676 /* WikipediaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WikipediaRepository.swift; path = ../../../../../WikipediaRepository.swift; sourceTree = "<group>"; };
+		2FC59FD424DD9A34006E16D9 /* ExploreTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTab.swift; sourceTree = "<group>"; };
+		2FD9B9AC24DEC40A009B482F /* TopHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeader.swift; sourceTree = "<group>"; };
+		2FD9B9AE24DEC44D009B482F /* HeaderSearchBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSearchBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA5AB9A24DEF65F00947676 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +104,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F33861624E7F9870064BBE8 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9B9AC24DEC40A009B482F /* TopHeader.swift */,
+				2FD9B9AE24DEC44D009B482F /* HeaderSearchBox.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 		2F75AA6024DD7DB700BE5B1C = {
 			isa = PBXGroup;
 			children = (
+				2FA5AB9724DEF18C00947676 /* fonts */,
 				2F75AA6B24DD7DB800BE5B1C /* Wikipedia SwiftUI view */,
 				2F75AA7D24DD7DBD00BE5B1C /* Wikipedia SwiftUI viewTests */,
 				2F75AA8824DD7DBD00BE5B1C /* Wikipedia SwiftUI viewUITests */,
@@ -95,6 +137,9 @@
 		2F75AA6B24DD7DB800BE5B1C /* Wikipedia SwiftUI view */ = {
 			isa = PBXGroup;
 			children = (
+				2FA5AB9F24DEFF8000947676 /* data */,
+				2FA5AB9024DEE8C200947676 /* Model */,
+				2FC59FD224DD9A09006E16D9 /* tabs */,
 				2F75AA6C24DD7DB800BE5B1C /* Wikipedia_SwiftUI_viewApp.swift */,
 				2F75AA6E24DD7DB800BE5B1C /* ContentView.swift */,
 				2F75AA7024DD7DBD00BE5B1C /* Assets.xcassets */,
@@ -130,6 +175,64 @@
 			path = "Wikipedia SwiftUI viewUITests";
 			sourceTree = "<group>";
 		};
+		2FA5AB8D24DEE37F00947676 /* Explore Cards */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5AB8E24DEE88C00947676 /* ArticleCard.swift */,
+				2FA5AB9D24DEFA0D00947676 /* SaveForLaterButton.swift */,
+				2F7AFE8524E025EF003CDFFA /* BaseCard.swift */,
+				2F7AFE8724E02C97003CDFFA /* PictureOfTheDayCard.swift */,
+				2F7AFE8B24E039CA003CDFFA /* TopReadCard.swift */,
+			);
+			path = "Explore Cards";
+			sourceTree = "<group>";
+		};
+		2FA5AB9024DEE8C200947676 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5AB9124DEE8DF00947676 /* Article.swift */,
+				2FA5AB9324DEEC0800947676 /* PictureOfTheDay.swift */,
+				2F7AFE8324E01C3C003CDFFA /* FeedItem.swift */,
+				2F7AFE8924E03323003CDFFA /* ArticleList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2FA5AB9724DEF18C00947676 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5AB9524DEF18700947676 /* georgia.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		2FA5AB9F24DEFF8000947676 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				2FA5ABA024DEFF9E00947676 /* WikipediaRepository.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		2FC59FD224DD9A09006E16D9 /* tabs */ = {
+			isa = PBXGroup;
+			children = (
+				2FC59FD324DD9A16006E16D9 /* explore-tab */,
+			);
+			path = tabs;
+			sourceTree = "<group>";
+		};
+		2FC59FD324DD9A16006E16D9 /* explore-tab */ = {
+			isa = PBXGroup;
+			children = (
+				2F33861624E7F9870064BBE8 /* Header */,
+				2FA5AB8D24DEE37F00947676 /* Explore Cards */,
+				2FC59FD424DD9A34006E16D9 /* ExploreTab.swift */,
+				2FA5AB8B24DEE2F800947676 /* ExploreContentCel.swift */,
+			);
+			path = "explore-tab";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +249,9 @@
 			dependencies = (
 			);
 			name = "Wikipedia SwiftUI view";
+			packageProductDependencies = (
+				2FA5AB9924DEF65F00947676 /* SDWebImageSwiftUI */,
+			);
 			productName = "Wikipedia SwiftUI view";
 			productReference = 2F75AA6924DD7DB800BE5B1C /* Wikipedia SwiftUI view.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +323,9 @@
 				Base,
 			);
 			mainGroup = 2F75AA6024DD7DB700BE5B1C;
+			packageReferences = (
+				2FA5AB9824DEF65F00947676 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 2F75AA6A24DD7DB800BE5B1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F75AA7424DD7DBD00BE5B1C /* Preview Assets.xcassets in Resources */,
+				2FA5AB9624DEF18700947676 /* georgia.ttf in Resources */,
 				2F75AA7124DD7DBD00BE5B1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F7AFE8824E02C97003CDFFA /* PictureOfTheDayCard.swift in Sources */,
 				2F75AA6F24DD7DB800BE5B1C /* ContentView.swift in Sources */,
+				2F7AFE8A24E03323003CDFFA /* ArticleList.swift in Sources */,
+				2F7AFE8624E025EF003CDFFA /* BaseCard.swift in Sources */,
+				2FA5AB8C24DEE2F800947676 /* ExploreContentCel.swift in Sources */,
+				2F7AFE8C24E039CA003CDFFA /* TopReadCard.swift in Sources */,
+				2FD9B9AF24DEC44D009B482F /* HeaderSearchBox.swift in Sources */,
+				2FA5AB9E24DEFA0D00947676 /* SaveForLaterButton.swift in Sources */,
 				2F75AA6D24DD7DB800BE5B1C /* Wikipedia_SwiftUI_viewApp.swift in Sources */,
+				2F7AFE8424E01C3C003CDFFA /* FeedItem.swift in Sources */,
+				2FA5ABA124DEFF9E00947676 /* WikipediaRepository.swift in Sources */,
+				2FA5AB9224DEE8DF00947676 /* Article.swift in Sources */,
+				2FD9B9AD24DEC40A009B482F /* TopHeader.swift in Sources */,
+				2FA5AB8F24DEE88C00947676 /* ArticleCard.swift in Sources */,
+				2FC59FD524DD9A34006E16D9 /* ExploreTab.swift in Sources */,
+				2FA5AB9424DEEC0800947676 /* PictureOfTheDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2FA5AB9824DEF65F00947676 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FA5AB9924DEF65F00947676 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2FA5AB9824DEF65F00947676 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2F75AA6124DD7DB700BE5B1C /* Project object */;
 }

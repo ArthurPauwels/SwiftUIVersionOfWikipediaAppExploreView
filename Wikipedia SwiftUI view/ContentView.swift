@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView() {
+            ExploreTab()
+            Text("").tabItem { Label("Places", image : "tabbar-nearby") }
+            Text("").tabItem { Label("Saved", image : "tabbar-save") }
+            Text("").tabItem { Label("History", image : "tabbar-recent") }
+            Text("").tabItem { Label("Search", image : "search") }
+        }
     }
 }
 
